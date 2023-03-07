@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
-// import './App.css';
-import Button from './Components/Button';
+import './App.css';
 import Heading from './Components/Heading';
 import Input from './Components/Input';
+import Button from './Components/Button';
 
 function App() {
   return (
@@ -20,10 +20,10 @@ function App() {
 
     // 2nd Challenge :-
 
-    <div>
-      <Heading></Heading>
+    <div className='form'>
+      <Heading heading="Register Here ..."></Heading>
       <Input></Input>
-      <Button></Button>
+      <Button btn="Submit"></Button>
     </div>
   );
 };

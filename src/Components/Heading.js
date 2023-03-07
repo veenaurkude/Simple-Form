@@ -1,8 +1,9 @@
 
-function Heading(){
+
+function Heading(props){
     return(
         <>
-            <h1 style={{paddingLeft:"45%"}}>Register Here ...</h1>
+            <h1>{props.heading}</h1>
         </>
     );
 };

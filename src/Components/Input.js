@@ -1,7 +1,8 @@
 
+
 function Input(){
     return(
-        <div style={{paddingLeft:"45%"}}>
+        <div>
             <input type="number" name="mobile"  placeholder="Mobile ..." />
             <br /><br />
             <input type="password" name="password" placeholder="Password ..." />

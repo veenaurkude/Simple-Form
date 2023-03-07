@@ -1,8 +1,9 @@
 
-function Button(){
+
+function Button(props){
     return(
-        <div style={{paddingLeft:"45%"}}>
-            <button>Submit</button>
+        <div>
+            <button>{props.btn}</button>
         </div>
     );
 };
