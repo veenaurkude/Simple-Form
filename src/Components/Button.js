@@ -3,7 +3,7 @@
 function Button(props){
     return(
         <div>
-            <button>{props.btn}</button>
+            <button id="btn">{props.btn}</button>
         </div>
     );
 };
